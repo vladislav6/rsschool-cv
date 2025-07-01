@@ -3,10 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Vladislav Javascriptovich CV</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="head-resume">
+            <div class="left-column-avatar">
+                <img src="image/avatar.webp" alt="Avatar image" width="250" height="250">
+            </div>
+            <div class="right-column">
+                <div class="title">
+                    <h1>Vladislav Javascriptovich</h1>
+                    <p>Junior Frontend Developer</p>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#my-work">Work Experience</a></li>
+                        <li><a href="#my-code">Code examples</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#english">English Language</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="content">
+            <aside class="left-bar">
+                <section>
+                    <h3>Contacts</h3>
+                    <address>
+                        <ul>
+                            <li>
+                                <span class="left-bar-icon email"></span>
+                                <a href="meilto:vladislav.javascriptovich@gmail.com">vladislav.javascriptovich</a>
+                            </li>
+                            <li>
+                                <span class="left-bar-icon phone"></span>
+                                <a href="tel:+(380)99-00-00-001">+(380)99-00-00-001</a>
+                            </li>
+                            <li><span class="left-bar-icon github"></span>
+                                <a href="https://github.com/vladislav6" target="_blank">Vladislav6</a>
+                            </li>
+                            <li><span class="left-bar-icon discord"></span>Discord: vladkvan</li>
+                            <li><span class="left-bar-icon discord"></span>Telegram: vladislav12345y</li>
+                        </ul>
+                    </address>
+                </section>
+                <section>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><span class="left-bar-icon html-skill"></span>HTML</li>
+                        <li><span class="left-bar-icon css-skill"></span>CSS</li>
+                        <li><span class="left-bar-icon js-skill"></span>JavaScript (basic)</li>
+                        <li><span class="left-bar-icon git-skill"></span>Git</li>
+                    </ul>
+                </section>
+            </aside>
+            <article class="content-resume">
+                <h2 class="head-of-article" id="about-me">About Me</h2>
+                <p class="text-box">I am a motivated Junior Frontend Developer with a passion for creating user-friendly websites. My goal is to build modern and responsive web applications. I am a fast learner, hardworking, and enjoy working in a team. I have no professional work experience yet, but I am eager to learn new technologies and improve my skills through practice and real projects.</p>
+                <section id="my-work">
+                    <h2>Work Experience</h2>
+                    <p>No professional experience yet, but I have completed educational project:</p>
+                    <ul>
+                        <li>Description: <span>A simple website to show my skills.</span></li>
+                        <li>Used: <span>HTML, CSS</span></li>
+                        <li>GitHub: <span><a href="https://github.com/vladislav6/test">Test</a></span></li>
+                        <li>
+                            <a href="https://vladislav6.github.io/test/" target="_blank">
+                                <img src="image/screenshot-layout.png" alt="Screenshot layout" width="600">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="my-code">
+                    <h2>Code examples</h2>
+                    <code>
+    function multiply(a, b){
+        return a * b;
+    }
+                    </code>
+                </section>
+                <section id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Course: <span>Frontend Development Codecademy, 2024 &mdash; 2025</span></li>
+                    </ul>
+                </section>
+                <section id="english">
+                    <h2>English Language</h2>
+                    <ul>
+                        <li>Level: <span>A2 (Elementary)</span></li>
+                        <li>Practice: <span>I practice English by reading technical documentation and watching tutorials on YouTube. I am improving my skills through daily study.</span></li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+        <footer class="footer-resume">
+            <div class="left-column-footer">
+                <a href="https://github.com/vladislav6" target="_blank">
+                    <img src="image/github.png" alt="My GitHub account" width="250">
+                </a>
+            </div>
+            <div class="right-column-footer">
+                <p>&copy; 2025 by Vladyslav Kateshko</p>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                    <img src="image/rs-school-logo.svg" alt="JS / Front-end RU Course" width="150">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

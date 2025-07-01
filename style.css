@@ -117,3 +117,69 @@ a:hover { color: #aa4b41; }
     color: #d4dde1;
     background-color: #aa4b41;
 }
+
+.content { z-index: 1; }
+
+.left-bar section {
+    font-style: normal;
+    padding: 0 15px 15px 15px;
+}
+
+.left-bar ul li {
+    margin: 20px 0;
+    padding-left: 15px;
+}
+
+.left-bar-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+.left-bar ul li::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.email { background-image: url("image/icons/mail.png"); }
+.phone { background-image: url("image/icons/phone.png"); }
+.github { background-image: url("image/icons/gh.svg"); }
+.discord { background-image: url("image/icons/discord.png"); }
+.html-skill { background-image: url("image/icons/html.png"); }
+.css-skill { background-image: url("image/icons/css.png"); }
+.js-skill { background-image: url("image/icons/js.png"); }
+.git-skill { background-image: url("image/icons/git.png"); }
+
+.head-of-article {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.content-resume p {
+    line-height: 1.7;
+    font-size: 18px;
+    text-indent: 25px;
+    margin: 0;
+    text-align: justify;
+}
+
+.content-resume section,
+.text-box {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 0 30px 30px;
+}
+
+.content-resume section ul li {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.content-resume section ul li span {
+    font-size: 20px;
+    padding-left: 20px;
+}

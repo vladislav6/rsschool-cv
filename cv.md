@@ -33,3 +33,25 @@ No professional experience yet, but I have completed educational project:
   - GitHub: [Test](https://vladislav6.github.io/test/)
 
 ---
+
+## Code examples
+
+```Javascript
+function multiply(a, b){
+ return a * b;
+}
+```
+
+---
+
+## Education
+
+***Online Course:*** Frontend Development  
+Codecademy, 2024–2025
+
+---
+
+## English Language
+
+*Level:* **A2 (Elementary)**  
+*Practice:* I practice English by reading technical documentation and watching tutorials on YouTube. I am improving my skills through daily study.

@@ -1,0 +1,14 @@
+@mixin grid-column-tmp($count) {
+  grid-template-columns: repeat($count, 1fr);
+  @extend %grid-gap10;
+}
+
+@mixin contacts-ikon($contact) {
+  background-image: url($contact);
+  @extend %contacts-bg-settings;
+}
+
+@mixin skills-ikon($skill) {
+  background-image: url($skill);
+  @extend %skills-bg-settings;
+}

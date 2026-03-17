@@ -1,0 +1,41 @@
+@import 'normalize.css';
+@import '/src/scss/common/variables';
+@import '/src/scss/common/extends';
+@import '/src/scss/common/mixins';
+
+* {
+  box-sizing: border-box;
+  transition: 0.6s;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.conteiner {
+  margin: 0 auto;
+  padding: 50px 20px;
+  max-width: 1100px;
+  min-width: 290px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 0;
+  @extend %molding-dark;
+  
+  span {
+    @extend %light-bg-color;
+    padding-right: 10px;
+  }
+}
+
+.description {
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+  text-indent: 1.5em;
+}

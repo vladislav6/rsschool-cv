@@ -1,0 +1,46 @@
+header {
+  background-color: $bgcolor1;
+
+  .avatar {
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 50%;
+    background-color: $bgcolor2;
+    overflow: hidden;
+    box-shadow: 0px 0px 420px 150px white;
+    border: 1px solid $bgcolor1;
+
+    img { @extend %full-img; }
+  }
+  .author {
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 0.8;
+    color: $title-links-color;
+  }
+
+  .menu ul {
+    @extend %flex-disp;
+    background-color: $bgcolor2;
+    border-radius: 50px;
+  
+    li {
+      width: 100%;
+      text-align: center;
+
+      a {
+        display: block;
+        line-height: 3;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        color: $title-links-color;
+      }
+
+      a:hover {
+        background-color: $bgcolor1;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.aboutme-wrapper {
+  @include grid-column-tmp(2);
+
+  .summary {
+    grid-column: 1 / -1;
+  }
+
+  .contacts { @include skills-ikon('/src/img/contacts.png'); }
+  .skills { @include skills-ikon('/src/img/skills.png'); }
+
+  .contacts,
+  .skills {
+    background-position: center right;
+    position: relative;
+    
+    ul li {
+      padding: 0 0 0 50px;
+      margin: 5px 0;
+      line-height: 24px;
+    }
+
+    span {
+      width: 26px;
+      height: 24px;
+      display: block;
+      margin-right: 10px;
+      position: absolute;
+      left: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $title-links-color;
+      background-color: #ffffff;
+    }
+  }
+
+  .mail { @include contacts-ikon('/src/img/icon/mail.png'); }
+  .phone { @include contacts-ikon('/src/img/icon/phone.png'); }
+  .gh { @include contacts-ikon('/src/img/icon/gh.svg'); }
+  .ds { @include contacts-ikon('/src/img/icon/discord.png'); }
+  .tg { @include contacts-ikon('/src/img/icon/discord.png'); }
+  .html { @include skills-ikon('/src/img/icon/html.png'); }
+  .css { @include skills-ikon('/src/img/icon/css.png'); }
+  .js { @include skills-ikon('/src/img/icon/js.png'); }
+  .git { @include skills-ikon('/src/img/icon/git.png'); }
+}

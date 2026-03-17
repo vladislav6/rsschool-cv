@@ -1,0 +1,15 @@
+footer {
+   @extend %dark-bg-color;
+
+  .section-title { @extend %molding-light; }
+  .section-title span { @extend %dark-bg-color; }
+  .copyright { text-align: center; }
+
+  .links-line {
+    display: flex;
+    justify-content: space-between;
+
+    a { @extend %text-decor-color; }
+    a:hover { @extend %black-shadow; }
+  }
+}

@@ -9,18 +9,11 @@
     
     a {
       @extend %flex-disp;
-      flex-direction: column;
-      text-decoration: none;
-      color: #ffffff;
-      box-shadow: 1px 1px 3px #ffffff;
-      border-radius: 5px;
-      padding: 0 10px
+      @extend %text-decor-color;
+      flex-direction: column;      
     }
 
-    a:hover {
-      box-shadow: 1px 1px 3px #000000;
-    }
-    
+    a:hover { @extend %black-shadow; }
     .work-image { @extend %full-img; }
 
     .technology {

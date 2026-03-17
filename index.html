@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/src/img/icon/cv.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css">
   <title>Vladislav CV</title>
 </head>
 <body>
@@ -127,8 +128,7 @@
     <section class="mycode">
       <div class="conteiner">
         <h2 class="section-title"><span id="mycode">Code examples</span></h2>
-        <pre>
-  function countBits(n) {
+        <pre><code>function countBits(n) {
     let bin = n.toString(2);
     let arr = bin.split('');
     return arr.reduce((acc, val) => {
@@ -137,13 +137,12 @@
       }
       return acc;
     }, 0);
-  }
-        </pre>
+  }</code></pre>
       </div>
     </section>
     <section class="myeducation">
       <div class="conteiner">
-        <h2 class="section-title"><span id="myeducation">Education</span></span></h2>
+        <h2 class="section-title"><span id="myeducation">Education</span></h2>
         <p>Online Course</p>
         <p class="description">Frontend Development, The Rolling Scopes School, 07.2025 &mdash; 01.2026</p>
       </div>
@@ -162,9 +161,10 @@
         <a href="https://github.com/vladislav6" target="_blank">My GitHub Repository</a>
         <a href="https://rs.com/" target="_blank">The Rolling Scope School</a>
       </div>
-      <p class="copyright">(C)2026 by Vladislav Javascriptovich</p>
+      <p class="copyright">&copy; 2026 by Vladislav Javascriptovich</p>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
   <script type="module" src="src/js/main.js"></script>
 </body>
 </html>

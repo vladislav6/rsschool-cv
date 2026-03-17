@@ -1,5 +1,5 @@
 header {
-  background-color: $bgcolor1;
+  @extend %dark-bg-color;
 
   .avatar {
     margin: 0 auto;

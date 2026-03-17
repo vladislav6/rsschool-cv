@@ -1,0 +1,10 @@
+.mycode {
+  pre {
+    code {
+      background-color: rgb(163, 162, 160);
+      line-height: 1.4;
+      border-radius: 5px;
+      @extend %black-shadow;
+    }
+  }
+}

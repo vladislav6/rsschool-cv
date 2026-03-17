@@ -40,3 +40,18 @@
   display: grid;
   gap: 10px;
 }
+
+%black-shadow {
+  box-shadow: 1px 1px 3px #000000;
+}
+
+%text-decor-color {
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 1px 1px 3px #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}

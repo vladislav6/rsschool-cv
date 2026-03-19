@@ -45,3 +45,26 @@
   .js { @include skills-ikon('/src/img/icon/js.png'); }
   .git { @include skills-ikon('/src/img/icon/git.png'); }
 }
+
+@media (max-width: #{map-get($breackpoint-size, 's768')}) {
+  .aboutme-wrapper {
+    @include grid-column-tmp(1);
+
+    .summary,
+    .contacts,
+    .skills {
+      border: 1px solid silver;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+}
+
+@media (max-width: #{map-get($breackpoint-size, 's470')}) {
+  .aboutme-wrapper {
+    .contacts,
+    .skills {
+      background: none;
+    }
+  }
+}

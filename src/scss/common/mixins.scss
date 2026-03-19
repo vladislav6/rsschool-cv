@@ -1,6 +1,8 @@
 @mixin grid-column-tmp($count) {
   grid-template-columns: repeat($count, 1fr);
-  @extend %grid-gap10;
+  @if $count != 1 {
+    @extend %grid-gap10; 
+  }
 }
 
 @mixin contacts-ikon($contact) {

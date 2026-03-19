@@ -29,3 +29,15 @@
     }
   }
 }
+
+@media (max-width: #{map-get($breackpoint-size, 's768')}) {
+  .myworks {
+    .work-wrapper { @include grid-column-tmp(2); }
+  }
+}
+
+@media (max-width: #{map-get($breackpoint-size, 's470')}) {
+  .myworks {
+    .work-wrapper { @include grid-column-tmp(1); }
+  }
+}

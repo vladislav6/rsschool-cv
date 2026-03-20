@@ -18,7 +18,10 @@
       <div class="avatar">
         <img src="/src/img/avatar.webp" alt="my photo" width="400" height="400">
       </div>
-      <h1 class="author">Vladislav Javascriptovich</h1>
+      <h1 class="author">
+        <span>Vladislav</span>
+        <span>Javascriptovich</span>
+      </h1>
       <nav class="menu">
         <ul>
           <li><a href="#aboutme">About me</a></li>
@@ -43,7 +46,7 @@
             <ul>
               <li>
                 <span class="mail"></span>
-                <a href="meilto:vladislav.javascriptovich@gmail.com">vladislav.javascriptovich</a>
+                <a href="mailto:vladislav.javascriptovich@gmail.com">vladislav.javascriptovich</a>
               </li>
               <li>
                 <span class="phone"></span>
@@ -136,7 +139,7 @@
         <pre><code>function countBits(n) {
     let bin = n.toString(2);
     let arr = bin.split('');
-    return arr.reduce((acc, val) => {
+    return arr.reduce((acc, val) =&gt; {
       if (val === '1') {
         acc += 1;
       }
@@ -164,7 +167,7 @@
     <div class="conteiner">
       <div class="links-line">
         <a href="https://github.com/vladislav6" target="_blank">
-          <img src="/src/img/github.png" width="300" height="111" alt="My GitHub Repository">  
+          <img src="/src/img/github.png" width="300" height="111" alt="My GitHub Repository">
         </a>
         <a href="https://rs.school/courses/javascript" target="_blank">
           <img src="/src/img/rs-school-logo.svg" width="300" height="111" alt="The Rolling Scope School">

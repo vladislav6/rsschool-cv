@@ -25,3 +25,9 @@ menuList.addEventListener('click', () => {
   menu.classList.remove('mobile');
   mobileMenu.classList.remove('close');
 });
+
+window.addEventListener('resize', () => {
+  body.classList.remove('scroll-hiden');
+  menu.classList.remove('mobile');
+  mobileMenu.classList.remove('close');
+});

@@ -1,0 +1,6 @@
+.myeducation {
+   @extend %dark-bg-color;
+
+  .section-title { @extend %molding-light; }
+  .section-title span { @extend %dark-bg-color; }
+}

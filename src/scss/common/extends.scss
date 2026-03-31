@@ -1,0 +1,57 @@
+%contacts-bg-settings {
+  background: $bgcolor1 center center no-repeat;
+}
+
+%skills-bg-settings { 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+%molding-dark {
+  border-bottom: 1px solid $text-color;
+  box-shadow: 0px 1px 5px $text-color;
+}
+
+%molding-light {
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 0px 1px 5px #ffffff;
+}
+
+%dark-bg-color {
+  background-color: $bgcolor1;
+  color: #ffffff;
+}
+
+%light-bg-color {
+  background-color: #ffffff;
+  color: $text-color;
+}
+
+%full-img {
+  width: 100%;
+  height: 100%;
+}
+
+%flex-disp {
+  display: flex;
+}
+
+%grid-gap10 {
+  display: grid;
+  gap: 10px;
+}
+
+%black-shadow {
+  box-shadow: 1px 1px 3px #000000;
+}
+
+%text-decor-color {
+  text-decoration: none;
+  color: #ffffff;
+  box-shadow: 1px 1px 3px #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,29 @@
+footer {
+   @extend %dark-bg-color;
+
+  .section-title { @extend %molding-light; }
+  .section-title span { @extend %dark-bg-color; }
+  .copyright { text-align: center; }
+
+  .links-line {
+    display: flex;
+    
+
+    a {
+      @extend %text-decor-color;
+      width: 250px;
+      margin: 10px auto 0 auto;
+
+      img { @extend %full-img;}
+    }
+    a:hover { @extend %black-shadow; }
+  }
+}
+
+@media (max-width: #{map-get($breackpoint-size, 's470')}) {
+  footer {
+    .links-line {
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.myworks {
+  @extend %dark-bg-color;
+
+  .section-title { @extend %molding-light; }
+  .section-title span { @extend %dark-bg-color; }
+  
+  .work-wrapper {
+    @include grid-column-tmp(3);
+    
+    a {
+      @extend %flex-disp;
+      @extend %text-decor-color;
+      flex-direction: column;      
+    }
+
+    a:hover { @extend %black-shadow; }
+    .work-image { @extend %full-img; }
+
+    .technology {
+      @extend %flex-disp;
+      gap: 10px;
+      justify-content: end;
+
+      span { padding-left: 20px; }
+
+      .html { @include skills-ikon('/src/img/icon/html.png'); }
+      .css { @include skills-ikon('/src/img/icon/css.png'); }
+      .js { @include skills-ikon('/src/img/icon/js.png'); }
+    }
+  }
+}
+
+@media (max-width: #{map-get($breackpoint-size, 's768')}) {
+  .myworks {
+    .work-wrapper { @include grid-column-tmp(2); }
+  }
+}
+
+@media (max-width: #{map-get($breackpoint-size, 's470')}) {
+  .myworks {
+    .work-wrapper { @include grid-column-tmp(1); }
+  }
+}
